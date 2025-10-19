@@ -1,0 +1,25 @@
+name: ProfilePlugin
+version: 1.0.0
+main: com.yourname.plugin.profile.ProfilePlugin
+api-version: 1.18
+author: VotreNom
+description: Plugin de gestion de profils admin et joueur
+
+commands:
+  profile:
+    description: Affiche le profil d'un joueur
+    usage: /profile [joueur]
+    aliases: [profil, p]
+  setadmin:
+    description: Définir un joueur comme admin
+    usage: /setadmin <joueur>
+    permission: profile.admin
+  removadmin:
+    description: Retirer le rôle admin d'un joueur
+    usage: /removadmin <joueur>
+    permission: profile.admin
+
+permissions:
+  profile.admin:
+    description: Permet d'utiliser les commandes d'administration
+    default: op
