@@ -1,6 +1,6 @@
 name: ProfilePlugin
 version: 1.0.0
-main: com.yourname.plugin.profile.ProfilePlugin
+main: com.plugin.profile.ProfilePlugin
 api-version: 1.18
 author: VotreNom
 description: Plugin de gestion de profils admin et joueur
@@ -22,4 +22,5 @@ commands:
 permissions:
   profile.admin:
     description: Permet d'utiliser les commandes d'administration
+
     default: op
