@@ -1,4 +1,4 @@
-package com.yourname.profileplugin;
+package com.plugin.profile.profileplugin;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -271,4 +271,5 @@ public class ProfilePlugin extends JavaPlugin implements Listener {
         public void setRole(String role) { this.role = role; }
         public void setJoinTime(long time) { this.joinTime = time; }
     }
+
 }
